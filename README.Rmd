@@ -1,4 +1,4 @@
 
 #travis
 
-\url{https://travis-ci.org/kjsykora/faRs.svg?branch=master}
+https://travis-ci.org/kjsykora/faRs.svg?branch=master
