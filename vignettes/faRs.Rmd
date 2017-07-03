@@ -1,0 +1,40 @@
+---
+title: "How to use faRs"
+author: "Kevin Sykora"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+This Vignette shows how to use the faRs package which has two exported functions:
+
+* fars_summarize_years
+* fars_map_state
+
+
+## fars_summarize_years
+```{r warning=FALSE, include=FALSE}
+library(dplyr)
+library(graphics)
+library(maps)
+library(readr)
+library(faRs)
+```
+
+This function reads in the year of interest and exports summary statistics for that year.
+
+```{r}
+fars_summarize_years(c(2013,2014,2015))
+```
+
+## fars_map_state
+
+This function draws a map of the state with fars datapoints showing the locations of each event.
+
+```{r, echo=FALSE, fig.cap="Map of Florida Event Locations"}
+fars_map_state(12,2014)
+```

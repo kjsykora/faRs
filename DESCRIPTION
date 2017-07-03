@@ -1,0 +1,15 @@
+Package: faRs
+Title: Package for reading and visualizing fars data
+Version: 0.0.0.9000
+Authors@R: person("Sykora", "Kevin", email = "kevinshopping1@gmail.com", role = c("aut", "cre"))
+Description: This package provides tools for reading in fars data, producing useful summary statistics, and mapping locations of accidents.
+Depends: R (>= 3.4.0)
+Imports: dplyr, tidyr, readr, maps, graphics
+License: GPL 2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
