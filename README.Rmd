@@ -14,14 +14,5 @@ knitr::opts_chunk$set(
 )
 ```
 
-# faRs
-
-The goal of faRs is to ...
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```
+#travis
+\url{https://travis-ci.org/kjsykora/faRs.svg?branch=master}
