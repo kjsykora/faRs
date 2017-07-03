@@ -61,7 +61,6 @@ make_filename <- function(year) {
 #'
 #' @importFrom dplyr mutate select %>%
 #' 
-#' 
 #' @examples
 #'\dontrun{data_2013 <- fars_read_years(2013)}
 #'\dontrun{data_2013_to_2015 <- fars_read_years(c(2013,2014,2015))}
